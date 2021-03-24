@@ -167,24 +167,34 @@ h1, h2, h3, h4, h5, h6 {
 
 .services__item {
     margin-top: 100px;
+    max-width: 100%;
+   
     display: flex;    
-    flex: 3;
+    /* flex: 1; */
     
 }
 
 .services__inner {
     flex: 1;
-    margin-right: 50px;
+    padding-right: 50px;
+    width: 33.33333%;
     
-    height: 655px;
-    width: 500px;
+    /* height: 655px;
+    width: 500px; */
 
 }
 
 .services__photo {
+    /* max-width: 100%;
+    max-height: 100%; */
     margin-bottom: 70px;
     display: flex;
     justify-content: center;
+}
+
+.photo {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .services__title__one {
@@ -387,19 +397,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .references__inner {
+    position: relative;
     display: flex;
-    flex: 1;
+    /* flex: 1; */
 
-}
+    /* width: 25%; */
 
-.references__inner__left{
-    flex: 1;
-    padding-right: 30px;
+    
+
 }
 
 .references__inner__left {
     flex: 1;
+    padding-right: 30px;
+    
+    margin-left: 100px;
+
+    height: 490px;
+    width: 490px;
+
+    background-image: url(../pictures/References/1.jpg);
+    background-image: no-repeat;
+    
+    
+    
+
+    
 }
+
+.references__inner__right {
+    flex: 1;
+}
+
 .references__inner__right__tittle {
     
     font-size: 45px;
@@ -411,8 +440,50 @@ h1, h2, h3, h4, h5, h6 {
    
 }
 
+.arrows__inner {
+    
+    height: 80px; 
+    width: 35px; 
+    margin: 0 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: all .5s ease;
+}
+
+
+.arrow__left {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: 1;        
+    
+    height: 67px;
+    width: 27px;
+    
+
+    background-image: url(../pictures/References/left.png);
+    
+} 
+
+.arrows__inner-arrow._right {
+    position: absolute;
+    right: 0;
+    top: 200px;
+    z-index: 1;
+
+    margin-left: 50px;
+    height: 67px;
+    width: 27px;
+    
+
+    background-image: url(../pictures/References/right.png);
+    
+}
+
 .references__inner__right__text {
     padding-top: 30px;
+    padding-right: 70px;
 
     font-size: 25px;
     color: #5f5f5f;
@@ -516,7 +587,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
 
     height: 50px;
-    width: 800px;
+    /* width: 800px; */
     color: white;
 
     border: 0;

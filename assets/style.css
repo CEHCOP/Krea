@@ -564,8 +564,8 @@ h1, h2, h3, h4, h5, h6 {
     top: 200px;
     z-index: 1;        
     
-    height: 67px;
-    width: 27px;
+    height: 68px;
+    width: 28px;
     
 
     background-image: url(../pictures/References/left.png);
@@ -579,8 +579,8 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
 
     margin-left: 50px;
-    height: 67px;
-    width: 27px;
+    height: 68px;
+    width: 28px;
     
 
     background-image: url(../pictures/References/right.png);
@@ -673,7 +673,7 @@ h1, h2, h3, h4, h5, h6 {
 .input {
     font-size: 21px;
     height: 50px;
-    /* width: 400px; */
+    width: 100%;
     color: white;
     font-weight: 400;
     border: none;
@@ -692,11 +692,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 21px;
     text-align: left;
 
-    height: 50px;
-    /* width: 800px; */
+    /* height: 50px; */
+    resize: none;
+    width: 100%;
     color: white;
 
-    border: 0;
+    border:none;
 
     background-color: black;
 }
@@ -765,7 +766,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__title {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 
     font-size: 15px;
     font-weight:bold;
@@ -1042,6 +1043,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .textarea {
         font-size: 21px;
+        
         width: 100%;
     }
 
@@ -1080,12 +1082,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .footer__email{
-        padding-right: 3px;
-        margin-right: 5px;
+        /* padding-right: 3px; */
+        margin-right: 25px;
     }
     .footer__phone {
-        margin-right:10px;
-        padding-right: 10px;
+        margin-right: 45px;
+        /* padding-right: 10px; */
 
     }
 
